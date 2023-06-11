@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 # ALLOWED_HOSTS = ['8000-dayanan-hellodjango-6e5x8kmzsv9.ws-eu99.gitpod.io']
-ALLOWED_HOSTS = [os.environ.get('ALLOWED_HOSTS')]
+ALLOWED_HOSTS = ['di-hello-django-app.herokuapp.com/']
 
 # Application definition
 
