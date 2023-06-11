@@ -30,7 +30,6 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = development
 
-# ALLOWED_HOSTS = ['8000-dayanan-hellodjango-6e5x8kmzsv9.ws-eu99.gitpod.io']
 if development:
     ALLOWED_HOSTS = [os.environ.get('ALLOWED_HOSTS')]
 else:
